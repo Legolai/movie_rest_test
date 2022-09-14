@@ -1,0 +1,17 @@
+GET http://localhost:8080/rest-snippets/api/parent/
+Accept: application/json
+
+###
+GET http://localhost:8080/rest-snippets/api/parent/2
+Accept: application/json
+
+###
+GET http://localhost:8080/rest-snippets/api/parent/99999999
+Accept: application/json
+
+
+###
+POST http://localhost:8080/rest-snippets/api/parent
+Accept: application/json
+
+{"name": "Frank", "age": 48, "children": [{"name":"Jesper", "age": 10, "toys": []}] }
